@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <style>
+    .delete__btn {
+      width: 80px;
+      height: 50px;
+      border: 2px solid whitesmoke;
+      border-radius: 8px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .update__btn {
+      width: 80px;
+      height: 50px;
+      border: 2px solid whitesmoke;
+      border-radius: 8px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+  </style>
+  <body>
+    <h1 class="text-3xl font-bold underline border-[1px] text-center">
+      Hello world!
+    </h1>
+    <div class="main">
+      <div id="head">
+        <div class="my-[3%] mx-[5%]">
+          <input
+            type="text"
+            placeholder="Name...."
+            name="lang"
+            class="text-lg border-[2px] rounded-[5px] p-[8px] outline-none border-black focus:ring focus:ring-violet-400 "
+          />
+        </div>
+        <div class="my-[3%] mx-[5%]">
+          <input
+            type="email"
+            placeholder="Email...."
+            name="lang"
+            class="text-lg border-[2px] rounded-[5px] p-[8px] outline-none border-black focus:ring focus:ring-violet-400"
+          />
+        </div>
+        <div class="my-[3%] mx-[5%]">
+          <input
+            type="button"
+            value="Add"
+            id="button"
+            class="border-[2px] w-[80px] h-[50px] rounded-[5px] outline-none bg-black text-white focus:ring focus:ring-red-400"
+          />
+        </div>
+      </div>
+      <div id="output"></div>
+    </div>
+  </body>
+
+  <script src="./scriptDOM.js" defer></script>
+  <!-- <script src="./scriptThis.js"></script> -->
+</html>
